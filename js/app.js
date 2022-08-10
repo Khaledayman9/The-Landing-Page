@@ -59,11 +59,11 @@ createListItems();
 while being viewed. Thus the section that is being viewed is the one that will have an active state while the others are passive*/
 
 window.onscroll = function() {
-    document.querySelectorAll("section").forEach(function(active) {
-        if (active.getBoundingClientRect().top >= -400 && active.getBoundingClientRect().top <= 150) {
-            active.classList.add("your-active-class");
+    document.querySelectorAll("section").forEach(function(elementS) {
+        if (elementS.getBoundingClientRect().top >= -400 && elementS.getBoundingClientRect().top <= 150) {
+            elementS.classList.add("your-active-class");
         } else {
-            active.classList.remove("your-active-class");
+            elementS.classList.remove("your-active-class");
         }
     });
 };
