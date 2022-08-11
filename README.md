@@ -25,7 +25,4 @@ A multi-section landing page which can dynamically add the content to the page b
 
 # Dependencies 
 
-* Virtual DOM
-* JavaScript
-* HTML
-* CSS
+* No dependencies were used in this Project.
